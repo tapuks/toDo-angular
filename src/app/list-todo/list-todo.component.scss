@@ -1,0 +1,18 @@
+.list-todo {
+    display: flex;
+    flex-wrap: wrap;
+    
+    div {
+        background-color: lightsalmon;
+        max-width: 300px;
+        min-width: 200px;
+        border: 1px solid black;
+        padding: 20px;
+        margin: 20px;
+        word-wrap: break-word;
+    }
+
+    .green {
+        background-color: lightgreen;
+    }
+}

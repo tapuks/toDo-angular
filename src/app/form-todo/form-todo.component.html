@@ -1,0 +1,11 @@
+<div class="form-todo">
+  <div>
+    <label>Titulo</label>
+    <input type="text" [(ngModel)]="nuevaTarea.titulo" />
+  </div>
+  <div>
+    <label>Descripcion</label>
+    <input type="text" [(ngModel)]="nuevaTarea.descripcion" />
+  </div>
+  <button (click)="guardarTarea()">Guardar</button>
+</div>

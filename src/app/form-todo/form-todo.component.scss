@@ -1,0 +1,17 @@
+.form-todo{
+    
+    max-width: 400px;
+    border: 1px solid black;
+    padding: 30px;
+    background-color: lightblue;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    button {
+        display: block;
+        margin: auto;
+    }
+}

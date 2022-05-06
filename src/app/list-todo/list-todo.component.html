@@ -1,0 +1,14 @@
+<div class="list-todo">
+  <div
+    *ngFor="let tarea of listaTareasRecibida; let index = index"
+    [ngClass]="{ green: tarea.completada == true }"
+  >
+    <p>{{ tarea.titulo }}</p>
+    <p>{{ tarea.descripcion }}</p>
+    <button (click)="onClickCompletar(tarea)">
+      {{ tarea.completada == true ? "Deshacer" : "Completar" }}
+    </button>
+
+    <button (click)="onClickEliminar(index)">Eliminar</button>
+  </div>
+</div>
